@@ -1,0 +1,9 @@
+Static variable from Outer01: 5
+Outer01 constructor called
+Static variable from Outer01: 5
+Instance variable from Outer01: 10 5
+Final variable: 1
+Effective final variable: 2
+Anonymous inner class method
+Adding element: 100
+100

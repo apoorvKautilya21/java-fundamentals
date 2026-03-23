@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run current Java file with I/O redirection",
+      "type": "shell",
+      "command": "javac \"${file}\" && java \"${fileBasenameNoExtension}\" < input.txt > output.txt",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "detail": "Compiles and runs the current Java file with redirected input and output"
+    }
+  ]
+}
